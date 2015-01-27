@@ -135,8 +135,6 @@ More about developing:
  * Refer to the API documentation:
    http://api.drupal.org/api/drupal/7
    
-
-
 More about developing:
  * Search for existing contributed modules:
    http://drupal.org/project/modules
@@ -148,3 +146,4 @@ More about developing:
    http://drupal.org/best-practices
  * Refer to the API documentation:
    http://api.drupal.org/api/drupal/7
+
