@@ -236,7 +236,8 @@ p {
             left:6.5%;  
             width:13%;
             max-width:205px;
-            min-width:190px; 
+            min-width:190px;
+            border: 0 !important;			
         }
     }
     @media (min-width: 1200px) {
