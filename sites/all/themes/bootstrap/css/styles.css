@@ -50,6 +50,14 @@
 	 font-size:2em;
 }
 
+#views_slideshow_cycle_main_announcement-block{
+	display: block;
+	width: 300px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
 html {
 
     width:100%;
