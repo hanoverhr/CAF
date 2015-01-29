@@ -57,6 +57,17 @@
 	margin-right: auto;
 }
 
+.views-slideshow-pager-field-item{
+  /* display: inline-block; */ /* or even display: inline-block*/
+  float: left;
+  padding: 5px;
+  font-size:10px;
+}
+
+.views-slideshow-pager-field-item.active{
+ font-weight: bold;
+}
+
 
 html {
 
