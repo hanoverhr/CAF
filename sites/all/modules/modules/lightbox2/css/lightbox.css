@@ -7,6 +7,12 @@
   z-index: 100;
   text-align: center;
   line-height: 0;
+  background-color:black;
+  color: white;
+}
+
+#lightbox h {
+	color: white;
 }
 
 #lightbox a img {
@@ -30,6 +36,11 @@
 #modalContainer {
   line-height: 1em;
   overflow: auto;
+  background-color:black;
+}
+
+.field-item {
+  color: white;
 }
 
 #loading {
