@@ -6,6 +6,8 @@ stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/base.css
 stylesheets[all][] = css/announcements.css
 
+scripts[] = js/jquery.easing.1.3.js
+
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions
