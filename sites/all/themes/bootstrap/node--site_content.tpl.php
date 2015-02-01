@@ -12,7 +12,7 @@
 <div id="common-modal" class="modal fade in" aria-hidden="false" role="dialog" tabindex="-1" style="display: block;">
 <div class="modal-dialog">
 <div class="modal-content">
-<div class="modal-body">
+<div class="modal-body announcements">
 <h1><?php print $title ?>
 <?php if (isset($content['field_image'])) {?>
 <?php print render($content['field_image']) ?>
