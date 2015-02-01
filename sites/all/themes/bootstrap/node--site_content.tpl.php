@@ -3,27 +3,26 @@
 // 31JAN2014
 ?>
 
-<?php //print($content['field_content_designator'][0]['#markup']); 
-$designator = $content['field_content_designator'][0]['#markup'];
-?>
+<?php  $designator = $content['field_content_designator'][0]['#markup']; ?>
 
 <?php switch ($designator) { 
 		case 'Announcement':
 ?>
 <!-- Announcements -->
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<div class="content"<?php print $content_attributes; ?>>
-<div class="modal-body announcements">
+<div id="common-modal" class="modal fade in" aria-hidden="false" role="dialog" tabindex="-1" style="display: block;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body">
 <h1><?php print $title ?>
-</h1>
 <?php if (isset($content['field_image'])) {?>
 <?php print render($content['field_image']) ?>
 <?php }; ?>
-<br clear="left">
+</h1>
 <p><?php print $content['body'][0]['#markup'] ?></p>
 <br>
 <br>
 </p>
+</div>
 </div>
 </div>
 </div>

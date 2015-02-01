@@ -33,22 +33,17 @@
 
 }
 
-
 .views-slideshow-pager-field-item.active{
 
  font-weight: bold;
 
 }
 
-
-
 .views-slideshow-controls-bottom {
 
    margin: 0 auto;
 
 }
-
-
 
 .views-content-title{
    padding-left: 5px;
@@ -62,17 +57,14 @@
 
 .announcements h1{
     font-family: "open_sansbold",sans-serif;
-   color: white;
+   color: black;
 }
 
 .announcements p{
-   color: white;
+   color: black;
 }
 
 
-#outerImageContainer{
-    background-color: black;
-}
 
 
 
