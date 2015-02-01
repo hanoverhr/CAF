@@ -10,16 +10,16 @@ $designator = $content['field_content_designator'][0]['#markup'];
 <?php switch ($designator) { 
 		case 'Announcement':
 ?>
-
+<!-- Announcements -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <div class="content"<?php print $content_attributes; ?>>
 <div class="modal-body announcements">
 <h1><?php print $title ?>
+</h1>
 <?php if (isset($content['field_image'])) {?>
 <?php print render($content['field_image']) ?>
 <?php }; ?>
-</h1>
-<p></p>
+<br clear="left">
 <p><?php print $content['body'][0]['#markup'] ?></p>
 <br>
 <br>
@@ -27,9 +27,11 @@ $designator = $content['field_content_designator'][0]['#markup'];
 </div>
 </div>
 </div>
+<!-- /Announcements -->
 <?php      break; ?>  
 
 <?php 		case 'About Us': ?>
+<!-- About Us -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <div class="content"<?php print $content_attributes; ?>>
 <div class="modal-body aboutus">
@@ -41,9 +43,11 @@ $designator = $content['field_content_designator'][0]['#markup'];
 </div>
 </div>
 </div>
+<!-- /About Us -->
 <?php      break; ?>   
  
 <?php 		case 'Careers': ?>
+<!-- Careers -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <div class="content"<?php print $content_attributes; ?>>
 <div class="modal-body careers">
@@ -55,9 +59,11 @@ $designator = $content['field_content_designator'][0]['#markup'];
 </div>
 </div>
 </div>
+<!-- /Careers -->
 <?php      break; ?>    
 
 <?php 		case 'FAQ': ?>
+<!-- FAQ -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <div class="content"<?php print $content_attributes; ?>>
 <div class="modal-body faq">
@@ -70,9 +76,11 @@ $designator = $content['field_content_designator'][0]['#markup'];
 </div>
 </div>
 </div>
+<!-- /FAQ -->
 <?php      break; ?>  
 
 <?php 		case 'Site Information': ?>
+<!-- Site Informantion -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <div class="content"<?php print $content_attributes; ?>>
 <div class="modal-body">
@@ -84,5 +92,6 @@ $designator = $content['field_content_designator'][0]['#markup'];
 </div>
 </div>
 </div>
-<?php      break; ?>  
+<!-- /Site Informantion --> 
+<?php      break; ?> 
 <?php }; ?>
