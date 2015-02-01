@@ -1,34 +1,79 @@
-/*  start Dorian's styles */
+/*  Styles for Announcements section and modal popups in general
+    Dorian Winterfeld
+    dwinterfeld@computergeeksonline.com
+    31JAN2015
+
+ */
+
+
 
 #views_slideshow_cycle_main_announcement-block{
+
 	display: block;
+
 	width: 250px;
+
 	margin-left: auto; 
+
 	margin-right: auto;
+
 }
 
 
+
+
+
 .views-slideshow-pager-field-item{
+
   float: left;
+
   padding: 5px;
+
   font-size:14px;
+
 }
 
 
 .views-slideshow-pager-field-item.active{
+
  font-weight: bold;
+
 }
+
+
 
 .views-slideshow-controls-bottom {
+
    margin: 0 auto;
+
 }
+
+
 
 .views-content-title{
-	padding-left: 5px;
+   padding-left: 5px;
+
 }
 
-.modal-dialog h1 {
-	color: white;
+.announcements{
+   background-color: black;
+   text-align: left;
 }
+
+.announcements h1{
+    font-family: "open_sansbold",sans-serif;
+   color: white;
+}
+
+.announcements p{
+   color: white;
+}
+
+
+#outerImageContainer{
+    background-color: black;
+}
+
+
 
 /* end Dorian's styles */
